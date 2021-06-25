@@ -1,0 +1,68 @@
+.background {
+    background-image: url(./nicee3.png);
+    background-position: top center;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: 65% 27cm;
+    background-color: rgb(255, 219, 253);
+}
+
+.search {
+    cursor: pointer;
+    border: 2px solid rgb(250, 68, 138);
+    border-radius: 4px;
+    margin: 8px 0px;
+    padding: 5px;
+    width: 20%;
+    margin-left: -30%;
+    transform: .3s;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    font-size: larger;
+    font-weight: bold;
+}
+  
+.search:focus{
+    border-color: rgb(68, 229, 250);
+    box-shadow: 0 0 16px 0 rgb(12, 12, 12);
+    cursor: pointer;
+}
+  
+.search:hover{
+    cursor: pointer;
+    background-color: rgb(252, 250, 126);
+    transition: 1s;
+}
+
+.button {
+    border: none;
+    padding: 15px 45px 10px 45px;
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: rgb(98, 206, 248);
+    color: rgb(87, 87, 87);
+    font-family: 'Farro';
+    border-radius: 4px;
+    box-shadow: 0 0 19px 0 rgb(12, 12, 12);
+    font-weight: bolder;
+}
+
+
+@media all and (min-width: 768px) {
+
+    video {
+        margin-top: 80%;
+        width: 80%;
+    }
+
+    .button {
+        padding: 12px 5px 5px 5px;
+    }
+
+    .search {
+        margin-left: -32%;
+        width: 20%;
+    }
+}
+

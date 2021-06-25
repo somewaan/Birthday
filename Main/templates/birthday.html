@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %}
+Happy Birthday Bhavana😊
+{% endblock %}
+
+
+{% block content %}
+<h1 style="text-align: center; font-family: Overlock; color: rgb(66, 66, 66); margin-top: 5%; font-weight: bolder;">
+    Wishing you a lovely,
+    glorious
+    birthday <span style="text-transform: uppercase;">" {{ name }} "</span> !!!! 😊✨🥳🎂
+</h1>
+
+<div>
+    <video width="720" height="440" controls>
+        <source src="{{ url_for('static', filename='Bhavana 22nd birthday.mp4') }}" type="video/mp4">
+    </video>
+</div>
+
+{% endblock %}

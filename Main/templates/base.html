@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overlock:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='site.css')}}" />
+
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+
+</head>
+
+<body class="background" style="text-align: center;">
+
+    <!--    <img src="{{ url_for('static', filename='nicee.jpg') }}">-->
+
+
+    {#
+    {% block content %}
+
+    {% endblock %}
+    #}
+</body>
+
+<body>
+    {% block content %}
+
+    {% endblock %}
+</body>
+
+</html>
